@@ -27,13 +27,13 @@ def mult(a, b):
 
 def combine_coins(number, coin):
     """
-    takes any list of numbers and returns an str of the numbers with coin sign.
+    takes a number and a coin sign, and returns an str of the number with coin sign.
+    :param number: a given number to join to the coin sign
     :param coin: a sign of a coin
-    :param number: a list of numbers to join to the coin sign
+    :type number: int
     :type coin: str
-    :type number: list, range
-    :return coin_list: an updated list
-    :rtype coin_list: a list joined to str
+    :return: the number with the coin sign
+    :rtype: str
     """
     return str(number) + coin
 
